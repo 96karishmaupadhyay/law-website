@@ -1,0 +1,14 @@
+.teamCard{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.teamContainer{
+    color: var(--textColor);
+    text-align: center;
+    padding: 2rem 4rem;
+}
+h2{
+    font-size: 54px;
+    font-weight: 600;
+}

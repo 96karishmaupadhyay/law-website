@@ -4,7 +4,7 @@ function Intro() {
   return (
     <div className={styles.introContainer}>
       <div className={styles.flex1}>
-        <p>Let's Introduce Ourself</p>
+        <p>Let's Introduce<br/> Ourself</p>
       </div>
       <hr/>
       <div className={styles.flex2}>

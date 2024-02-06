@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+    padding: 2rem 6rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primaryColor);
+  }
+  
+  .menu {
+    display: flex;
+    width: 431px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 41px;
+    background-color: var(--primaryColor);
+
+  }
+  .menu p{
+    color: var(--textColor);
+    opacity: 1;
+    font-weight: 500;
+
+  }
+  
+  .credits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+    background-color: var(--primaryColor);
+    font-size: 14px;
+    padding: 2rem 6rem;
+    color: var(--primaryColor);
+
+  }
+  .credits p{
+    color: var(--textColor);
+    font-weight: 600;
+  }

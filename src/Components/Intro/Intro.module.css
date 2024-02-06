@@ -6,16 +6,22 @@
     justify-content: space-between;
     gap: 100px;
 }
-.flex1{
+.flex1,.flex2{
+    flex: 1;
+}
+
+.flex1 p{
     font-size: 54px;
-    flex: 1; 
+    color: var(--textColor);
+    opacity: 1;
 }
 hr{
 opacity: 0.3;
 }
-.flex2{
+.flex2 p{
     font-size: 32px;
-    flex: 1;
+    color: var(--textColor);
+    opacity: 1;
 }
 .flex2 p:nth-child(2){
     opacity: 0.3;

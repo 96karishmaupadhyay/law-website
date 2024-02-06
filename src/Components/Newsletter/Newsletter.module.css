@@ -1,0 +1,33 @@
+.newsletterContainer{
+    text-align: center;
+    padding: 2rem 4rem;
+    background-color:var(--newsLetterBackground);
+}
+.newsletterContainer h3{
+    font-size: 54px;
+    color: var(--textColor);
+}
+input{
+    background-color: var(--textColor);
+    height: 50px;
+}
+.inputContainer{
+    display:flex;
+    gap: 10px;
+    justify-content: center;
+}
+.inputContainer input{
+    border: none;
+    border-radius: 0;
+    width: 276px;
+}
+.inputContainer button{
+    width: 112px;
+    background-color: var(--SecondaryColor);
+}
+.container{
+    background-color: black;
+    padding: 2rem 4rem;
+    height: 356px;
+ 
+}

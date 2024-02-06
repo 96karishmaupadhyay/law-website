@@ -1,7 +1,7 @@
 .successCards{
     display: flex;
     gap: 20px;
-    padding: 2rem 4rem;
+    /* padding: 2rem 4rem; */
     text-align: left;
 }
 .text h2{

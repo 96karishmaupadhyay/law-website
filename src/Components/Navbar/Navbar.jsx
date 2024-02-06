@@ -4,7 +4,7 @@ import logo from "../../Assets/logo.png"
 function Navbar() {
   return (
     <div className={styles.navContainer}>
-      <div><img src={logo} alt="" /></div>
+      <div><img src={logo} alt="logo" /></div>
       <div className={styles.span}>
         <span>Home</span>
         <span>Attornies</span>

@@ -1,0 +1,30 @@
+.flex2{
+    display: flex;
+    gap: 20px;
+    /* padding: 2rem 4rem; */
+    background-color: var(--cardBackground);
+
+}
+.clientContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
+    background-color: var(--cardBackground);
+}
+.flex1 h3{
+    font-size: 54px;
+    font-weight: 600;
+    color: var(--textColor);
+}
+.flex1 {
+    display: flex;
+    justify-content:space-between;
+}
+.flex1 img{
+    height: 90px;
+    width: 90px;
+}
+.arrow{
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,38 @@
+.accordionContainer{
+    display: flex;
+    padding: 2rem 4rem;
+    justify-content: space-between;
+    gap: 100px;
+ 
+}
+/* .flex1{
+    background-color: aqua;
+    padding: 1rem 1rem;
+}
+.flex2{
+    background-color: aquamarine;
+} */
+.flex1,.flex2{
+    flex: 1;
+}
+.flex1 h3{
+font-size: 54px;
+font-weight: 600;
+color: var(--textColor);
+}
+.flex1 p{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--textColor);
+
+}
+.text h4{
+font-size: 24px;
+color: var(--textColor);
+
+}
+.text p{
+    font-size: 18px;
+    opacity: 0.3;
+    color: var(--textColor);
+}
