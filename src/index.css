@@ -1,0 +1,25 @@
+:root{
+  --primaryColor: rgba(17, 17, 17, 1);  ;
+  --SecondaryColor: rgba(227, 183, 72, 1);
+  --textColor: rgba(255, 255, 255, 1);  ;
+  --greyColor:rgba(46, 46, 46, 1);
+  --cardBackground:rgba(29, 29, 29, 1);
+  --newsLetterBackground: rgba(71, 71, 71, 0.5);
+
+}
+
+body{
+  background-color: var(--primaryColor);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+title{
+  background-color: var(--primaryColor);
+}
+img{
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
