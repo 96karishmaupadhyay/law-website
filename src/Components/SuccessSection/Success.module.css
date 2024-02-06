@@ -1,0 +1,20 @@
+.successCards{
+    display: flex;
+    gap: 20px;
+    padding: 2rem 4rem;
+    text-align: left;
+}
+.text h2{
+    font-size: 64px;
+    font-weight: 600;
+    color: var(--textColor);
+}
+.successContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cardBackground);
+    text-align: center;
+    padding: 2rem 4rem;
+    color: var(--textColor); 
+
+}

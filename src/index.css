@@ -20,6 +20,7 @@ title{
 }
 img{
   display: block;
+  object-fit: contain;
   max-width: 100%;
-  max-height: 100%;
+  min-height: 100%;
 }

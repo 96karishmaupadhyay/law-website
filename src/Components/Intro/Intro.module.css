@@ -1,0 +1,23 @@
+.introContainer{
+    padding: 2rem 4rem;
+    display: flex;
+    color: var(--textColor);
+    font-weight: 600;
+    justify-content: space-between;
+    gap: 100px;
+}
+.flex1{
+    font-size: 54px;
+    flex: 1; 
+}
+hr{
+opacity: 0.3;
+}
+.flex2{
+    font-size: 32px;
+    flex: 1;
+}
+.flex2 p:nth-child(2){
+    opacity: 0.3;
+    font-size: 18px;
+}

@@ -1,0 +1,24 @@
+.imageContainer{
+    padding: 2rem 4rem;
+    background-color: var(--cardBackground);
+    text-align: center;
+}
+.text h3{
+    color: var(--textColor);
+    font-size: 54px;
+    font-weight: 600;
+}
+.imageflex{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    filter: brightness(1.5);
+    transition: transform 2s ease;
+}
+img{
+    width: auto;
+    height: 342px;
+}
+img:hover{
+     transform:scale(1.010) 
+}
